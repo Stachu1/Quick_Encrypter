@@ -30,7 +30,7 @@ zig build-exe ./src/main.zig
 
 ## Demo
 **175MB**<br>
-<img width="469" alt="image" src="https://github.com/Stachu1/Quick_Encrypter/assets/77758413/6d7072f4-dd3f-4f0d-96d9-1a0b248d351c">
+<img width="600" alt="image" src="https://github.com/Stachu1/Quick_Encrypter/assets/77758413/6d7072f4-dd3f-4f0d-96d9-1a0b248d351c">
 <br>
 <br>
 
@@ -39,5 +39,6 @@ zig build-exe ./src/main.zig
 
 <br>
 <br>
+
 **5GB**<br>
 <img width="600" alt="image" src="https://github.com/Stachu1/Quick_Encrypter/assets/77758413/95624be9-ed68-4110-845a-d153ab2fda21">
