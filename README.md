@@ -3,6 +3,7 @@ The code works by changing every byte in a given file according to a table that 
 <br>
 <br>
 **NOTE:** Not Secure, I don't recommend using it with important files. It was made just for fun and educational purposes.
+**NOTE_2:** Although it's kinda fast, it works by reading the whole file as one big chunk. If there is not enough RAM, it starts creating swaps, and the speed goes down.
 <br>
 <br>
 
@@ -11,7 +12,6 @@ The code works by changing every byte in a given file according to a table that 
 git clone https://github.com/Stachu1/Quick_Encrypter.git
 ```
 
-<br>
 <br>
 
 
@@ -26,4 +26,16 @@ zig build-exe ./src/main.zig
 ./main <file> <e/d> <key>
 ```
 
-<img width="1000" alt="image" src="https://github.com/Stachu1/Quick_Encrypter/assets/77758413/e58fff11-a235-4a7d-ae81-4838caf2d612">
+## Demo
+**175MB**
+<img width="469" alt="image" src="https://github.com/Stachu1/Quick_Encrypter/assets/77758413/6d7072f4-dd3f-4f0d-96d9-1a0b248d351c">
+<br>
+<br
+
+**1GB**
+<img width="600" alt="image" src="https://github.com/Stachu1/Quick_Encrypter/assets/77758413/25da6b84-9d20-4ddb-a3f3-e30ef076f1e9">
+
+<br>
+<br>
+**5GB**
+<img width="600" alt="image" src="https://github.com/Stachu1/Quick_Encrypter/assets/77758413/95624be9-ed68-4110-845a-d153ab2fda21">
